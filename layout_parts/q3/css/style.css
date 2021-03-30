@@ -6,31 +6,33 @@
 	width: 100%;
 	border: solid #dedede 1px;
 	table-layout: fixed;
-	text-align: center;
 }
 
-th,td {
+.q3_table th,.q3_table tr {
+	text-align: center;
+}
+.q3_table th,.q3_table td {
 	padding: 10px;
 	border: solid #dedede 1px;
 }
 
-th {
+.q3_table th {
 	background-color: #2244aa;
 	color: white;
 	font-size: 18px;
 	line-height: 26px;
 }
 
-td {
+.q3_table td {
 	font-size: 16px;
 	line-height: 22px;
 }
 
-tbody>tr:nth-child(even) {
+.q3_table tbody>.q3_table tr:nth-child(even) {
 	background-color: #ecf1f2;
 }
 
-tbody>tr:last-child {
+.q3_table tbody>.q3_table tr:last-child {
 	border-top: 2px dashed #000;
 }
 

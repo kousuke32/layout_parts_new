@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.boxs {
+	display: table-cell;
+	padding: 20px 0;
+	text-align: center;
+}
+
 .main {
 	background-color: #ecf1f2;
 	padding: 20px;
@@ -17,18 +23,9 @@
 	margin-top: 0;
 }
 
-.boxs {
-	display: table-cell;
-	padding: 20px 0;
-	text-align: center;
-}
-
-.top_left,.top_right {
-	width: 100px;
-}
-
 .top_left {
 	background-color: #fdc8b8;
+	width: 100px;
 }
 
 .top_center {
@@ -37,10 +34,7 @@
 
 .top_right {
 	background-color: #b6d8ed;
-}
-
-.bottom_right {
-	width: 500px;
+	width: 100px;
 }
 
 .bottom_left {
@@ -53,5 +47,6 @@
 
 .bottom_right {
 	background-color: #8fdcad;
+	width: 500px;
 }
 /* 回答はここに書いてね */

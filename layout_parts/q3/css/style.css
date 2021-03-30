@@ -28,11 +28,11 @@
 	line-height: 22px;
 }
 
-.q3_table tbody>.q3_table tr:nth-child(even) {
+.q3_table > tbody > tr:nth-child(even) {
 	background-color: #ecf1f2;
 }
 
-.q3_table tbody>.q3_table tr:last-child {
+.q3_table > tbody > tr:last-child {
 	border-top: 2px dashed #000;
 }
 

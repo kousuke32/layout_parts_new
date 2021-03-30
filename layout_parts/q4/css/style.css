@@ -1,25 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents {
+.main {
 	background-color: #ecf1f2;
 	padding: 20px;
 	box-sizing: border-box;
 }
 
-.box {
+.contents {
 	display: table;
 	width: 100%;
 	margin-top: 20px;
 }
 
-.box:first-child {
+.contents:first-child {
 	margin-top: 0;
 }
 
-.top_left,
-.top_center,
-.top_right {
+.boxs {
 	display: table-cell;
 	padding: 20px 0;
 	text-align: center;
@@ -33,20 +31,12 @@
 	background-color: #fdc8b8;
 }
 
-.top_center{
+.top_center {
 	background-color: #e0abd9;
 }
 
-.top_right{
+.top_right {
 	background-color: #b6d8ed;
-}
-
-.bottom_left,
-.bottom_center,
-.bottom_right {
-	display: table-cell;
-	padding: 20px 0;
-	text-align: center;
 }
 
 .bottom_right {

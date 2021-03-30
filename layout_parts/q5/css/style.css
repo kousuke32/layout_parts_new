@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q5_contents_box {
+.q5_contents {
 	margin: 0 auto;
 	width: 500px;
 	height: 500px;
@@ -10,8 +10,7 @@
 	position: relative;
 }
 
-.q5_one,.q5_two,.q5_three,.q5_four,.q5_five,
-.q5_six,.q5_seven,.q5_eight,.q5_nine{
+.boxs {
 	width: 100px;
 	font-size: 30px;
 	font-weight: bold;
@@ -91,6 +90,5 @@
 	position: fixed;
 	top: 10px;
 	left: 10px;
-	
 }
 /* 回答はここに書いてね */
